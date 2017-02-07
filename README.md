@@ -31,12 +31,25 @@ Or leave it empty and use the [link text itself].
 
 Class Name | Meaning | Using
 ------------ | ------------- | ------------- 
-MS-PT       | Mues Percent  |  MS-10
+MS-PT       | Mues Percent  |  MS-20
 
 
 Class Name | What's Happend
 ------------ | ------------- 
-MS-20       | `width: 20%'
+MS-20       | `width: 20%`
+
+___
+
+### Grid System (In Piece)
+
+Class Name | Meaning | Using
+------------ | ------------- | ------------- 
+MS-GW-PC       | Mues Grid Width Piece  |  MS-GW-3
+
+
+Class Name | What's Happend
+------------ | ------------- 
+MS-GW-3       | `width: 33.3333%`
 
 ___
 
