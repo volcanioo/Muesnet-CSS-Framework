@@ -36,9 +36,8 @@ MS-PD-TB-PX       | Mues Padding Top & Bottom Pixel  |  MS-PD-TB-20
 
 ### Advenced Padding Structure (What's Happend)
 
-Class Name | Meaning | Using
------------- | ------------- | ------------- | -------------
-MS-PD-LR-PX       | Mues Padding Left & Right Pixel  |  MS-PD-LR-20
-MS-PD-TB-PX       | Mues Padding Top & Bottom Pixel  |  MS-PD-TB-20
+Class Name | What's Happend
+------------ | ------------- 
+MS-PD-LR-PX       | `dsad`
 
 ___
