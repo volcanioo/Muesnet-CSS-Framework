@@ -30,7 +30,7 @@ Or leave it empty and use the [link text itself].
 ### Advenced Padding Structure 
 
 Class Name | Meaning | Using
------------- | ------------- | ------------- | -------------
+------------ | ------------- | ------------- 
 MS-PD-LR-PX       | Mues Padding Left & Right Pixel  |  MS-PD-LR-20
 MS-PD-TB-PX       | Mues Padding Top & Bottom Pixel  |  MS-PD-TB-20
 
@@ -38,6 +38,7 @@ MS-PD-TB-PX       | Mues Padding Top & Bottom Pixel  |  MS-PD-TB-20
 
 Class Name | What's Happend
 ------------ | ------------- 
-MS-PD-LR-PX       | `dsad`
+MS-PD-LR-PX       | `padding-left: 20px; padding-right: 20px`
+MS-PD-TB-PX       | `padding-top: 20px; padding-bottom: 20px`
 
 ___
