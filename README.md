@@ -175,3 +175,31 @@ MS-PD-TB-20       | `padding-top: 20px; padding-bottom: 20px`
 MS-PD-AC-20       | `padding: 20px;`
 
 ___
+
+## Container Sizes
+
+Device Width Max/Min | Container Size
+------------ | ------------- 
+1200px/~       | `width: 1200px`
+1200px/1100px       | `width: 1099px`
+1100px/1000px       | `width: 999px`
+1000px/900px       | `width: 899px`
+900px/800px       | `width: 799px`
+~/800px       | `width: 100%`
+
+___
+
+## Useful Classes
+
+Class Name | What's Happend
+------------ | ------------- 
+.NPL       | `padding-left: 0 !important;`
+.NPR       | `padding-right: 0 !important;`
+.NPT       | `padding-top: 0 !important;`
+.NPB       | `padding-bottom: 0 !important;`
+.FL       | `float: left !important;`
+.FR       | `float: right !important;`
+.Clear       | `clear: both; display: block !important;`
+.Inline       | `float: none !important; display: inline-block !important;`
+.Container       | `Different resolutions for all devices.`
+.FullImage       | `width: 100%; height: auto; display: block;` (For img element in this element)
