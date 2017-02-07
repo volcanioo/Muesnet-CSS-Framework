@@ -25,7 +25,7 @@ Or leave it empty and use the [link text itself].
 - Mobile View Proportional Support
 - Special Icon Font Creator
 
-## CSS Variables and Using of Class
+## CSS Variables
 
 ### Grid System (In Percent)
 
@@ -49,7 +49,10 @@ MS-HTW-20       | `width: 20%` (Just Horizontal Tablet Devices)
 
 #### Multiple Using
 
-`<div class='Mues MS-20 MS-MW-100 MS-TW-30 MS-HTW-50'></div>`
+```html
+<div class='Mues MS-20 MS-MW-100 MS-TW-30 MS-HTW-50'></div>
+```
+
 ```css
 .Mues {
     display: block;
@@ -106,6 +109,52 @@ MS-GW-PC       | Mues Grid Width Piece  |  MS-GW-3
 Class Name | What's Happend
 ------------ | ------------- 
 MS-GW-3       | `width: 33.3333%`
+
+#### Multiple Using
+
+```html
+<div class='Mues MS-GW-3 MS-MW-100 MS-TW-30 MS-HTW-50'></div>
+```
+
+```css
+.Mues {
+    display: block;
+    float: left;
+    box-sizing: border-box;
+}
+
+.MS-GW-3 { 
+    width: 33.3333%; 
+} 
+
+/*********************************************************/
+/*                    Grid System (Mobile)               */
+/*********************************************************/
+@media only screen and (min-width: 320px) and (max-width: 415px) {
+  .MS-MW-100 { 
+      width: 100% !important; 
+  } 
+}
+
+/*********************************************************/
+/*                    Grid System (Tablet)               */
+/*********************************************************/
+@media only screen and (min-width: 416px) and (max-width: 800px) {
+  .MS-TW-30 { 
+      width: 30% !important; 
+  } 
+}
+
+/*********************************************************/
+/*                    Grid System (Tablet (H) )          */
+/*********************************************************/
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+  .MS-TW-50 { 
+      width: 50% !important; 
+  } 
+}
+
+```
 
 ___
 
