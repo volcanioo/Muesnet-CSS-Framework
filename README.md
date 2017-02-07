@@ -176,7 +176,7 @@ MS-PD-AC-20       | `padding: 20px;`
 
 ___
 
-## Container Sizes
+### Container Sizes
 
 Device Width Max/Min | Container Size
 ------------ | ------------- 
@@ -189,7 +189,27 @@ Device Width Max/Min | Container Size
 
 ___
 
-## Useful Classes
+### Useful Classes
+
+Class Name | Meaning
+------------ | ------------- 
+.NPL       | Remove padding-left
+.NPR       | Remove padding-right
+.NPT       | Remove padding-top
+.NPB       | Remove padding-bottom
+.FL       | Lean to the left
+.FR       | Lean to the right
+.Clear       | Clear line
+.Inline       | Change display status
+.Container       | Call general container
+.FullImage       | For img element in this element width: 100%, height: auto
+.Relative       | Change position status relative
+.NM       | Remove margin
+.NP       | Remove padding
+.TR       | Change text align status right
+.TL       | Change text align status left
+.TC       | Change text align status center
+
 
 Class Name | What's Happend
 ------------ | ------------- 
@@ -203,3 +223,11 @@ Class Name | What's Happend
 .Inline       | `float: none !important; display: inline-block !important;`
 .Container       | `Different resolutions for all devices.`
 .FullImage       | `width: 100%; height: auto; display: block;` (For img element in this element)
+.Relative       | `position: relative;`
+.NM       | `margin: 0 !important;`
+.NP       | `padding: 0 !important;`
+.TR       | `text-align: right !important;`
+.TL       | `text-align: left !important;`
+.TC       | `text-align: center !important;`
+
+
