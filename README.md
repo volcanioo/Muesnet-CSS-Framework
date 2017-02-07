@@ -29,18 +29,74 @@ Or leave it empty and use the [link text itself].
 
 ### Grid System (In Percent)
 
+- Minimum value: `1` 
+- Maximum value: `100`
+
 Class Name | Meaning | Using
 ------------ | ------------- | ------------- 
 MS-PT       | Mues Percent  |  MS-20
+MS-MW-PT       | Mues Mobile Width Percent  |  MS-MW-20
+MS-TW-PT       | Mues Tablet Width Percent  |  MS-TW-20
+MS-HTW-PT       | Mues Horizontal Tablet Width Percent  |  MS-HTW-20
 
 
 Class Name | What's Happend
 ------------ | ------------- 
-MS-20       | `width: 20%`
+MS-20       | `width: 20%` (All Devices)
+MS-MW-20       | `width: 20%` (Just Mobile Devices) 
+MS-TW-20       | `width: 20%` (Just Vertical Tablet Devices) 
+MS-HTW-20       | `width: 20%` (Just Horizontal Tablet Devices) 
+
+#### Multiple Using
+
+`<div class='Mues MS-20 MS-MW-100 MS-TW-30 MS-HTW-50'></div>`
+```css
+.Mues {
+    display: block;
+    float: left;
+    box-sizing: border-box;
+}
+
+.MS-20 { 
+    width: 20%; 
+} 
+
+/*********************************************************/
+/*                    Grid System (Mobile)               */
+/*********************************************************/
+@media only screen and (min-width: 320px) and (max-width: 415px) {
+  .MS-MW-100 { 
+      width: 100% !important; 
+  } 
+}
+
+/*********************************************************/
+/*                    Grid System (Tablet)               */
+/*********************************************************/
+@media only screen and (min-width: 416px) and (max-width: 800px) {
+  .MS-TW-30 { 
+      width: 30% !important; 
+  } 
+}
+
+/*********************************************************/
+/*                    Grid System (Tablet (H) )          */
+/*********************************************************/
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+  .MS-TW-50 { 
+      width: 50% !important; 
+  } 
+}
+
+```
+> no more code, manage every device just single line
 
 ___
 
 ### Grid System (In Piece)
+
+- Minimum value: `2` 
+- Maximum value: `10`
 
 Class Name | Meaning | Using
 ------------ | ------------- | ------------- 
