@@ -1,7 +1,6 @@
 # About of Mues Framework
 
 This framework development for Mues Sites since 2016. 
-Or leave it empty and use the [link text itself].
 
 ## CSS Contains
 
