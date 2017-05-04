@@ -13,16 +13,7 @@ This framework development for Mues Sites since 2016.
 - Ability to develop for all devices at the same time
   - Mobile
   - Vertical Tablet
-  - Horizontal Tablet
-
-## Javascript Contains
-
-- jQuery
-- [NiceScroll](https://github.com/inuyaksa/jquery.nicescroll)
-- [Owl Carousel](https://github.com/OwlFonk/OwlCarousel)
-- Special Lightbox - Image/Video Support
-- Mobile View Proportional Support
-- Special Icon Font Creator
+  - Horizontal Table
 
 ## CSS Variables
 
