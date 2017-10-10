@@ -28,28 +28,32 @@
     a {
         cursor: pointer
     }
-    
+    a:active {
+        position: relative;
+        top: 1px;
+    }
+
 /*********************************************************/
 /*                      Variables                        */
 /*********************************************************/
 
     /* No Padding Left */
-    .NPL { padding-left: 0 !important; } 
+    .NPL { padding-left: 0 !important; }
 
     /* No Padding Right */
-    .NPR { padding-right: 0 !important; } 
+    .NPR { padding-right: 0 !important; }
 
     /* No Padding Top */
-    .NPT { padding-top: 0 !important; } 
+    .NPT { padding-top: 0 !important; }
 
     /* No Padding Bottom */
     .NPB { padding-bottom: 0 !important; }
 
     /* Float => Right */
-    .FR { float: right !important; } 
+    .FR { float: right !important; }
 
     /* Float => Left */
-    .FL { float: left !important; } 
+    .FL { float: left !important; }
 
     /* Clear */
     .Clear {
@@ -57,7 +61,7 @@
         clear: both;
     }
 
-    /* Inline */ 
+    /* Inline */
     .Inline {
         float: none !important;
         display: inline-block !important;
@@ -71,44 +75,44 @@
         padding: 0 15px;
         box-sizing: border-box
     }
-    
+
     /* Image Fulled */
     .FullImage img {
         width: 100%;
         height: auto;
         display: block
     }
-    
+
     /* Custom Position */
     .Relative {
         position: relative
     }
-    
+
     /* No Margin */
     .NM {
         margin: 0!important
     }
-    
+
     /* No Padding */
     .NP {
         padding: 0!important
     }
-    
+
     /* Text Align is Right */
     .TR {
         text-align: right!important
     }
-    
+
     /* Text Align is Left */
     .TL {
         text-align: left!important
     }
-    
+
     /* Text Align is Center */
     .TC {
         text-align: center!important
     }
-    
+
 
 /*********************************************************/
 /*                      Grid System                      */
